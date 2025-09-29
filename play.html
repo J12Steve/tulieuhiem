@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Phát video</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="player-app">
+    <header>
+      <a href="index.html" class="back-btn">← Quay lại</a>
+      <h2 id="video-title"></h2>
+    </header>
+    <div class="video-wrapper">
+      <video id="video-player" controls autoplay></video>
+    </div>
+    <div id="video-info">
+      <span id="video-date"></span> | 
+      <span id="video-views"></span> lượt xem
+    </div>
+  </div>
+  <script src="play.js"></script>
+</body>
+</html>
